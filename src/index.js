@@ -4,7 +4,7 @@
 
 //importing the files for react
 import React from "react"
-import ReactDOM from "react-dom"
+import ReactDom from "react-dom"
 
 //need to import the app files
 import App from "./App"
@@ -19,4 +19,4 @@ import App from "./App"
 
 //creating a new function
 //creating components and make the code alot cleaner than the other problmes that are ensued with the problems. 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDom.render(<App />, document.getElementById("root"));
