@@ -2,11 +2,9 @@ import React from "react"
 
 function Footer() {
     return(
-
         <footer>
-            <h3>This is my footer</h3>
+            <h3>This is a Footer</h3>
         </footer>
-
     )
 }
 

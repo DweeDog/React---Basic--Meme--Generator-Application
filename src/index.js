@@ -4,9 +4,9 @@
 
 //importing the files for react
 import React from "react"
-import reactDOM from "react-dom"
+import ReactDOM from "react-dom"
 
-//need to impor the app files
+//need to import the app files
 import App from "./App"
 
 //fill the boilerplate react code required to render an unordered list <ul> </ul> to the page, the list should contain 3 list items wiht anything in them you want. 
@@ -19,4 +19,4 @@ import App from "./App"
 
 //creating a new function
 //creating components and make the code alot cleaner than the other problmes that are ensued with the problems. 
-reactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
