@@ -4,7 +4,10 @@
 
 //importing the files for react
 import React from "react"
-import ReactDOM from "react-dom"
+import reactDOM from "react-dom"
+
+//need to impor the app files
+import App from "./App"
 
 //fill the boilerplate react code required to render an unordered list <ul> </ul> to the page, the list should contain 3 list items wiht anything in them you want. 
 //where we want to place oir application is where the root div has been added or will be added. 
@@ -16,13 +19,4 @@ import ReactDOM from "react-dom"
 
 //creating a new function
 //creating components and make the code alot cleaner than the other problmes that are ensued with the problems. 
-function MyApp() {
-    return (<ul><li>Buy Food</li>
-    <li>Do the Cold Showers</li>
-    <li>workout</li></ul>)
-}
-
-
-ReactDOM.render(
-    <MyApp />
-    , document.getElementById("root"));
+reactDOM.render(<App />, document.getElementById("root"));
