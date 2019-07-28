@@ -14,7 +14,7 @@ function HeaderComponent() {
     return(
 
         <header className="navbar">
-            This is a header
+            TodoApp
         
         </header>
 
