@@ -2,6 +2,10 @@
 //Adding imports to the application
 import React from "react"
 
+import HeaderComponent from "./Components/HeaderComponent"
+import MainNavComponent from "./Components/MainNavComponent"
+import Footer from "./Components/Footer"
+
 //render the app component which renders different type of elements , which have child div elements. This is often reffered to as a Tree which is a route of hte tree
 //it isn't jsut limited to rendering through all the different types of html elements which are based on UI elements already provided in html code under the JSX 
 //such as the nav or the img element and other types of elements. 
@@ -17,14 +21,10 @@ function App() {
     return(
 
         <div>
-            <input type="checkbox" />
-             <p> Placeholder text here</p>
-
-             <input type="checkbox" />
-             <p> Placeholder text here</p>
-
-             <input type="checkbox" />
-             <p> Placeholder text here</p>
+            
+            <HeaderComponent/>
+            <MainNavComponent/>
+            <Footer/>
         
         
         </div>
