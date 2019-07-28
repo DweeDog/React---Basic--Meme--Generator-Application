@@ -12,6 +12,10 @@ import Footer from "./Components/Footer"
 
 //you normally want your application to be mainly just components and then goes to teh idnividual components have the individual changes this. Ass the app.js just 
 //have a compilation of all the different elements of the JSX. 
+//we going to start styling a particular component of it. 
+
+//you can only add it to react elemetns but not react compenents that you yourself define , therefore you can only add class names to those things. Have to go to your own the header
+//element having child and parent components. 
 
 //this app file is treated as a table of contents , similar to that it integrates all the different elements together. 
 
